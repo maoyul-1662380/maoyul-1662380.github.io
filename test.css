@@ -14,12 +14,18 @@ body {
 	border: solid 8px black;
 	text-align: center;
 	background-color: #8E41D5;
+	border-radius: 25px;
+	transform: rotate(-3deg);
+	background-image: radial-gradient(circle, yellow, #8E41D5, purple);
+
 }
 #Header h1 {
 	font-size: 60px;
 	font-family: "Passion One";
 	color: #FFBC00;
 	font-weight: bold;
+	text-shadow: 2px 2px 5px blue;
+	border-radius: 25px;
 	
 	
 }
@@ -34,6 +40,11 @@ body {
 	list-style-type: none;
 	padding-bottom: 8px;
 	background-color: #8E41D5;
+	text-shadow: 2px 2px 5px blue;
+	border-radius: 25px;
+	transform: rotate(-3deg);
+	opacity: 0.4;
+
 }
 #Content{
 	width: 700px;
@@ -44,15 +55,22 @@ body {
 	text-align: center;
 	padding: 15px;
 	background-color: #8E41D5;
+	text-shadow: 2px 2px 5px blue;
+	border-radius: 25px;
+	transform: rotate(-3deg);
+
 }
 #Footer{
-	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
 	border: solid 8px black;
 	text-align: center;
 	background-color: #8E41D5;
+	text-shadow: 2px 2px 5px blue;
+	border-radius: 25px;
+	transform: rotate(-3deg);
+	background-image: linear-gradient(blue,#8E41D5,purple);
 }
 
 ul {
@@ -63,7 +81,11 @@ ul {
 
 p {
 	font-weight: bold;
-	
+	color: white;
+	font-family: "Arial";
+	outline-style: dashed;
+	word-wrap:break-word;
+	outline-offset: 10px;
 }
 
 h3 {
@@ -77,5 +99,6 @@ a {
 	color: white;
 	font-weight: bold;
 	font-size: 24px;
-	
 }
+
+	
