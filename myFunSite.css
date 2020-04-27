@@ -1,0 +1,278 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(Ocean.jpg);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #c8d7da;
+	text-align: center;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: #706C53;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+ul.style1
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.style1 li
+{
+	padding: 15px 0px 15px 0px;
+	border-top: 1px solid #E5E5E5;
+}
+
+ul.style1 a
+{
+	color: #747474;
+}
+
+ul.style1 .first
+{
+	padding-top: 0;
+	border-top: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 600px;
+}
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	padding: 3em 0em;
+}
+
+#logo h1, #logo p {
+	text-align: center;
+}
+
+#logo h1 {
+	padding: 0px 0px 0px 0px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 5em;
+	font-weight: 600;
+	color: blue;
+	text-shadow: 2px 2px 5px black;
+}
+
+#logo p {
+	margin-top: -20px;
+	padding: 0px 0px 0px 5px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #696969;
+}
+
+#logo p a {
+	color: #696969;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #e5e5e5;
+}
+
+/* Menu */
+
+#menu-wrapper {
+	overflow: hidden;
+	height: 52px;
+	margin-bottom: 2em;
+}
+
+#menu {
+	overflow: hidden;
+	height: 52px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 30px;
+	line-height: 52px;
+	border: none;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 300;
+	color: #9db5d4;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: white;
+}
+
+#menu .current_page_item a {
+}
+
+/** PAGE */
+
+
+#page {
+	overflow: hidden;
+	width: 450px;
+	margin-bottom: 3em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	
+}
+
+#page h2
+{
+	letter-spacing: -2px;
+	text-decoration: none;
+	font-size: 5.5em;
+	font-weight: 400;
+	color: #c8d7da;
+	text-shadow: 2px 2px 5px black;
+}
+
+
+#page h3
+{
+	letter-spacing: -2px;
+	text-decoration: none;
+	font-size: 2.5em;
+	font-weight: 400;
+	color: #c8d7da;
+	border-style: double;
+	border-width: thick;
+}
+
+#page h4
+{
+	letter-spacing: -2px;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: 400;
+	color: #c8d7da;
+	text-shadow: 2px 2px 5px black;
+}
+
+#box1
+{
+	float: none;
+	width: 450px;
+	margin-right: 50px;
+}
+
+
+/** CONTENT */
+
+#content {
+}
+
+/** SIDEBAR */
+
+#sidebar {
+}
+
+/* Footer */
+
+#footer {
+	overflow: hidden;
+	padding: 3em 0em;
+	color: #7A7762;
+}
+
+#footer p {
+	text-align: center;
+}
+
+#footer a {
+	color: #7A7762;
+}
